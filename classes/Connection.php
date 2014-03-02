@@ -4,7 +4,7 @@ class Connection {
 
    const servidor = 'localhost'; /* Sustituir por valor adecuado */
    const usuario = 'root'; /* Sustituir por valor adecuado */
-   const clave = 'key123'; /* Sustituir por valor adecuado */
+   const clave = 'argos'; /* Sustituir por valor adecuado */
    const bd = 'callcenter'; /* Nombre de la base de datos */
 
    private $IdConexion;

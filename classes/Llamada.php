@@ -7,43 +7,43 @@
 class Llamada {
    private $id;
    private $fecha;
-   private $usuario;
-   private $extension;
+   private $idUsuario;
+   private $idExtension;
    
    function __construct() {
       
    }
 
    public function getId() {
-      return $this->id;
-   }
-
-   public function getFecha() {
-      return $this->fecha;
-   }
-
-   public function getUsuario() {
-      return $this->usuario;
-   }
-
-   public function getExtension() {
-      return $this->extension;
+     return $this->id;
    }
 
    public function setId($id) {
-      $this->id = $id;
+     $this->id = $id;
+   }
+
+   public function getFecha() {
+     return $this->fecha;
    }
 
    public function setFecha($fecha) {
-      $this->fecha = $fecha;
+     $this->fecha = $fecha;
    }
 
-   public function setUsuario($usuario) {
-      $this->usuario = $usuario;
+   public function getIdUsuario() {
+     return $this->idUsuario;
    }
 
-   public function setExtension($extension) {
-      $this->extension = $extension;
+   public function setIdUsuario($idUsuario) {
+     $this->idUsuario = $idUsuario;
+   }
+
+   public function getIdExtension() {
+     return $this->idExtension;
+   }
+
+   public function setIdExtension($idExtension) {
+     $this->idExtension = $idExtension;
    }
 
 
